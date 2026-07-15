@@ -38,7 +38,7 @@ btnGuardar.addEventListener("click", function (e) {
 
         fetch("https://script.google.com/macros/s/AKfycbyxsjG_h7dyW6HRcba8jNHN_YFgG7XkOtbXhNDr3h3bYknc-kA2_kqlniAzN2YrgeanEw/exec", {
             method: "POST",
-            mode: "no-cors",
+            
             headers: {
                 "Content-Type": "application/json"
             },
